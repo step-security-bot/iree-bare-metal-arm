@@ -24,6 +24,9 @@ env:
   VENV_RENODE: venv-renode
   IREE_HOST_INSTALL: build-iree-host-install
 
+permissions:
+  contents: read
+
 jobs:
   install-toolchain:
     name: Install Arm GNU Toolchain
